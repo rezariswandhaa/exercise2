@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="'en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <link rel="stylesheet" href="form.css">
+    <title>one piece</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Nonton</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+
+            <label for="pilihan">Pilih jumlah Kursi</label><br>
+            <select id="pilihan">
+                <option value="pilihan3">1</option>
+                <option value="pilihan3">2</option>
+                <option value="pilihan1">3</option>
+                <option value="pilihan1">4</option>
+            </select><br><br>
+            <div class="Pilih">
+                <p>Kelas Kursi</p>
+            <input type="radio" name="peminatan" id="programing" value="programing">
+            <label for="programing">VIP</label><br>
+            <input type="radio" name="peminatan" id="desain" value="desain">
+            <label for="programing">Eksekutif</label><br>
+            <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+            <label for="programing">Ekonomi</label><br>
+            </div>
+
+            
+            <label for="">Alamat</label><br>
+            <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+
+            <label for="">Pesan Makan</label><br>
+            <textarea placeholder="Tulis Pesanan Mu Disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+
+            
+            <button type="submit" onclick="kirimData()">Kirim</button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
